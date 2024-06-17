@@ -1,6 +1,6 @@
 def default_dask_params() {
     [
-        dask_container: 'registry.int.janelia.org/janeliascicomp/dask:2023.3.2',
+        dask_container: 'docker://daskdev/dask:latest',
         with_dask_dashboard: true,
         dask_scheduler_port: 0,
         dask_dashboard_port: 0,
